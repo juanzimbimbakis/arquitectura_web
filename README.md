@@ -25,4 +25,7 @@ Clientes del sistema:
 Ejemplo: 
 Si queremos listar clientes que compraron un producto: 
 - input --> idProducto
-- output --> lista de clientes 
+- output --> lista de clientes
+
+Endpoints: 
+producto --> queremos crear un producto 
