@@ -28,4 +28,35 @@ Si queremos listar clientes que compraron un producto:
 - output --> lista de clientes
 
 Endpoints: 
-producto --> queremos crear un producto 
+
+Producto.
+
+-->get
+   descripción: listar todos los productos
+   parametros: ninguno
+   payload: ninguno
+   path: /products
+   status code: 200 OK, 500 Internal server error
+
+-->get 
+   descripción: devuelve un producto con determinado id
+   parametros: id del producto que se quiere solicitar 
+   payload: ninguno
+   path: /products/{id}
+   status code: 200 OK, 404 not found 
+
+-->post 
+   descripción: crea un nuevo producto 
+   parametros: ninguno 
+   payload: JSON con el nuevo producto a crear 
+   path: /products 
+   status code: 201 created, 400 bad request, 409 conflict, 500 Internal server error 
+
+
+
+
+
+
+
+
+            
